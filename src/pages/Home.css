@@ -343,9 +343,9 @@
   }
 
   .home-spline {
-    width: 220%;
-    height: 220%;
-    transform: translate(-50%, -50%) scale(1.5);
+    width: 280%;
+    height: 280%;
+    transform: translate(-50%, -42%) scale(2);
   }
 
   .stats {
@@ -391,9 +391,9 @@
   }
 
   .home-spline {
-    width: 250%;
-    height: 250%;
-    transform: translate(-50%, -50%) scale(1.8);
+    width: 300%;
+    height: 300%;
+    transform: translate(-50%, -38%) scale(2.2);
   }
 
   .stat {
