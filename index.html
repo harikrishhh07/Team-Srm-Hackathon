@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/jpeg" href="/Logo.jpg?v=3" />
+    <link rel="shortcut icon" href="/Logo.jpg?v=3" />
+    <link rel="apple-touch-icon" href="/Logo.jpg?v=3" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Team SRM Hackathon</title>
+    <script>
+      (() => {
+        const stamp = Date.now()
+        const href = `/Logo.jpg?v=${stamp}`
+        const links = [
+          { rel: 'icon', type: 'image/jpeg' },
+          { rel: 'shortcut icon' },
+          { rel: 'apple-touch-icon' },
+        ]
+
+        links.forEach(({ rel, type }) => {
+          let el = document.querySelector(`link[rel="${rel}"]`)
+          if (!el) {
+            el = document.createElement('link')
+            el.rel = rel
+            if (type) el.type = type
+            document.head.appendChild(el)
+          }
+          el.href = href
+        })
+      })()
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
