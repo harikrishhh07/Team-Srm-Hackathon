@@ -250,3 +250,39 @@
     font-size: 2.5rem;
   }
 }
+
+@media (max-width: 560px) {
+  .domains {
+    padding: 30px 12px;
+  }
+
+  .section-title {
+    font-size: 1.55rem;
+  }
+
+  .domains-subtitle {
+    font-size: 0.94rem;
+    margin-bottom: 34px;
+  }
+
+  .card-top {
+    height: 122px;
+  }
+
+  .card-content {
+    padding: 16px;
+  }
+
+  .card-content h3 {
+    font-size: 1.3rem;
+  }
+
+  .card-content p {
+    font-size: 0.93rem;
+  }
+
+  .domain-btn {
+    width: 100%;
+    text-align: center;
+  }
+}

@@ -68,7 +68,7 @@
 
 @media (max-width: 900px) {
   .showcase {
-    min-height: 120vh;
+    min-height: auto;
     padding: 9vh 4vw;
   }
 
@@ -78,5 +78,39 @@
 
   .showcase-stage {
     height: 52vh;
+  }
+}
+
+@media (max-width: 560px) {
+  .showcase {
+    padding: 7vh 12px;
+  }
+
+  .showcase-header {
+    margin: 0 auto 4vh;
+  }
+
+  .showcase-tag {
+    font-size: 0.7rem;
+    letter-spacing: 0.15em;
+  }
+
+  .showcase-stage {
+    height: 45vh;
+    border-radius: 16px;
+    margin-bottom: 4vh;
+  }
+
+  .showcase-card {
+    border-radius: 14px;
+    padding: 14px;
+  }
+
+  .showcase-card h3 {
+    font-size: 1.1rem;
+  }
+
+  .showcase-card p {
+    font-size: 0.92rem;
   }
 }

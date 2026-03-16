@@ -44,11 +44,17 @@ export default function Navigation({ scrollToSection, refs }) {
             </button>
           </li>
         </ul>
-        <div className="hamburger" onClick={() => setIsOpen(!isOpen)}>
+        <button
+          type="button"
+          className={`hamburger ${isOpen ? 'active' : ''}`}
+          onClick={() => setIsOpen(!isOpen)}
+          aria-label="Toggle navigation menu"
+          aria-expanded={isOpen}
+        >
           <span></span>
           <span></span>
           <span></span>
-        </div>
+        </button>
       </div>
     </nav>
   )

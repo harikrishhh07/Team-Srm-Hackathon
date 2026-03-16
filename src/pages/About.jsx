@@ -63,10 +63,25 @@ export default function About() {
         <motion.div variants={itemVariants} className="about-story">
           <h2>Our Story</h2>
           <p>
-            Team SRM Hackathon is a premier event dedicated to fostering innovation and creativity among students. We provide a platform where brilliant minds collaborate, compete, and create groundbreaking solutions to real-world problems.
+            Our journey began with a simple idea - bringing passionate innovators together to solve real-world problems through technology. At SRM, we saw hackathons not just as competitions, but as opportunities to learn, build, and grow as a community of creators.
           </p>
           <p>
-            With multiple domains spanning technical excellence, creative thinking, and strategic management, we ensure every participant finds their niche and makes meaningful contributions to the tech community.
+            What started as a small group of curious minds quickly evolved into a driven team of developers, designers, and problem-solvers who believe in pushing boundaries. Late nights filled with coding, brainstorming sessions, and countless prototypes became the foundation of our journey.
+          </p>
+          <p>
+            Through every challenge and every hackathon, we discovered that the true power of innovation lies in collaboration, creativity, and persistence.
+          </p>
+          <p className="story-mission-title">Our mission is simple:</p>
+          <ul className="story-mission-list">
+            <li>Build impactful solutions</li>
+            <li>Encourage innovation and experimentation</li>
+            <li>Create a supportive community for builders</li>
+          </ul>
+          <p>
+            Today, our team represents a culture where ideas turn into projects, projects turn into solutions, and solutions create impact.
+          </p>
+          <p className="story-closure">
+            This is more than just a hackathon team. This is a community of innovators shaping the future.
           </p>
         </motion.div>
 

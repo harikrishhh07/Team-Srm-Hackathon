@@ -321,3 +321,53 @@
     font-size: 2.5rem;
   }
 }
+
+@media (max-width: 560px) {
+  .events {
+    padding: 30px 12px;
+  }
+
+  .section-title {
+    font-size: 1.55rem;
+  }
+
+  .events-subtitle {
+    margin-bottom: 48px;
+  }
+
+  .events-progress {
+    margin: -28px auto 44px;
+  }
+
+  .events-timeline {
+    padding: 20px 0;
+  }
+
+  .event-card.left,
+  .event-card.right {
+    margin-left: 34px;
+    padding-left: 14px;
+  }
+
+  .events-timeline::before,
+  .timeline-marker {
+    left: 8px;
+  }
+
+  .event-details {
+    padding: 16px;
+  }
+
+  .event-details h3 {
+    font-size: 1.25rem;
+  }
+
+  .description {
+    font-size: 0.92rem;
+  }
+
+  .register-btn {
+    width: 100%;
+    text-align: center;
+  }
+}

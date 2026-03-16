@@ -326,11 +326,13 @@
 
   .cta-buttons {
     flex-direction: column;
+    width: 100%;
   }
 
   .btn {
     padding: 12px 30px;
     font-size: 1rem;
+    width: 100%;
   }
 
   .home-spline-wrap {
@@ -356,5 +358,37 @@
 
   .stat h3 {
     font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 560px) {
+  .home {
+    padding: 16px 12px 22px;
+  }
+
+  .home-content {
+    gap: 16px;
+  }
+
+  .home-title {
+    font-size: 1.65rem;
+    line-height: 1.25;
+  }
+
+  .home-subtitle {
+    font-size: 0.95rem;
+    line-height: 1.65;
+  }
+
+  .home-spline-wrap {
+    border-radius: 16px;
+  }
+
+  .home-spline-wrap::after {
+    border-radius: 16px;
+  }
+
+  .stat {
+    padding: 14px 12px;
   }
 }

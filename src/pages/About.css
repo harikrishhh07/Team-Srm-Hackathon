@@ -132,6 +132,29 @@
   margin-bottom: 20px;
 }
 
+.story-mission-title {
+  font-weight: 700;
+  color: #d7f3ff;
+  margin-bottom: 10px;
+}
+
+.story-mission-list {
+  margin: 0 0 24px;
+  padding-left: 22px;
+  color: #b0c4de;
+}
+
+.story-mission-list li {
+  margin-bottom: 10px;
+  line-height: 1.7;
+}
+
+.story-closure {
+  margin-bottom: 0;
+  font-weight: 600;
+  color: #e6f7ff;
+}
+
 .team-stats {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -227,5 +250,34 @@
 
   .team-stat h4 {
     font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 560px) {
+  .about {
+    padding: 30px 12px;
+  }
+
+  .section-title {
+    font-size: 1.55rem;
+    margin-bottom: 30px;
+  }
+
+  .about-story {
+    padding: 22px 16px;
+  }
+
+  .about-story h2 {
+    font-size: 1.45rem;
+  }
+
+  .about-story p,
+  .story-mission-list li {
+    font-size: 0.96rem;
+    line-height: 1.7;
+  }
+
+  .team-stats {
+    grid-template-columns: 1fr;
   }
 }

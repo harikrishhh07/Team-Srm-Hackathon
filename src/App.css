@@ -6,7 +6,7 @@
 .app-section {
   width: 100%;
   min-height: calc(100vh - 80px);
-  scroll-margin-top: 78px;
+  scroll-margin-top: 74px;
 }
 
 .section-loader {
@@ -20,6 +20,18 @@
   background:
     radial-gradient(400px 240px at 50% 20%, rgba(0, 166, 255, 0.2), transparent 65%),
     #02040a;
+}
+
+@media (max-width: 960px) {
+  .app-section {
+    scroll-margin-top: 70px;
+  }
+}
+
+@media (max-width: 560px) {
+  .app-section {
+    scroll-margin-top: 62px;
+  }
 }
 
 .scroll-progress {
