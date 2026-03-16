@@ -339,6 +339,7 @@
     width: 100%;
     aspect-ratio: 10 / 13;
     height: auto;
+    display: none;
   }
 
   .home-spline {
@@ -382,6 +383,7 @@
 
   .home-spline-wrap {
     border-radius: 16px;
+    display: none;
   }
 
   .home-spline-wrap::after {
